@@ -124,7 +124,7 @@ MEDIA_ROOT =''
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 
-STATIC_URL = '/static/' 
+STATIC_URL = 'crm/static/' 
 STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
 
 # Default primary key field type
