@@ -1,2 +1,2 @@
-django==3.8
+django==3.8.5
 django-mathfilters
