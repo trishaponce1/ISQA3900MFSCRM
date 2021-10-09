@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'crm',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -58,8 +59,7 @@ ROOT_URLCONF = 'MaverickFoodServices.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Chicago'
 
 USE_I18N = True
 
@@ -124,7 +124,7 @@ MEDIA_ROOT =''
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 
-STATIC_URL = 'crm/static/' 
+STATIC_URL = '/static/' 
 STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
 
 # Default primary key field type
