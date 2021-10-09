@@ -124,7 +124,7 @@ USE_TZ = True
 
 
 STATIC_URL = 'crm/static/' 
-STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
+#STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
